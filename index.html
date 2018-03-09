@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>Document</title>
+	<link href="css/css.css" rel="stylesheet" type="text/css">
+	<link href="css/index2.css" rel="stylesheet" type="text/css">
+</head>
+<body id="body">
+<section id="section">
+	<header>
+		<div class="center">
+			<div class="search fl"><input type="button" value="保险" id="search"></div>
+			<div class="fr" id="more"><img src="images/more.gif"></div>
+			<div class="fr" id="friendList"><img src="images/friendList.gif"></div>
+		</div>
+	</header>
+	<article>
+		<div id="feature">
+				<ul class="feature1">
+					<a href="">
+						<li class="pic"><img src="images/d_03.jpg" alt=""></li>
+						<li class="wd">扫一扫</li>
+					</a>
+				</ul>
+				<ul class="feature1">
+					<a href="">
+						<li class="pic"><img src="images/d_03-02.jpg" alt=""></li>
+						<li class="wd">付钱</li>
+					</a>
+				</ul>
+				<ul class="feature1">
+					<a href="">
+						<li class="pic"><img src="images/d_03-03.jpg" alt=""></li>
+						<li class="wd">收钱</li>
+					</a>
+				</ul>
+				<ul class="feature1">
+					<a href="">
+						<li class="pic"><img src="images/d_03-04.jpg" alt=""></li>
+						<li class="wd">卡包</li>
+					</a>
+				</ul>
+		</div>
+		<div id="myList">
+				<ul class="list">
+					<a href="">
+						<li class="pic"><img src="images/q_16.jpg" alt=""></li>
+						<li class="wd">转账</li>
+						<li class="con"></li>
+					</a>
+				</ul>
+				<ul class="list">
+					<a href="">
+						<li class="pic"><img src="images/q_19.jpg" alt=""></li>
+						<li class="wd">充值中心</li>
+						<li class="con"></li>
+					</a>
+				</ul>
+				<ul class="list">
+					<a href="">
+						<li class="pic"><img src="images/q_22.jpg" alt=""></li>
+						<li class="wd">信用卡还款</li>
+						<li class="con"></li>
+					</a>
+				</ul>
+				<ul class="list">
+					<a href="">
+						<li class="pic"><img src="images/q_25.jpg" alt=""></li>
+						<li class="wd">蚂蚁财富</li>
+						<li class="con"></li>
+					</a>
+				</ul>
+				<ul class="list">
+					<a href="">
+						<li class="pic"><img src="images/q_31.jpg" alt=""></li>
+						<li class="wd">淘票票</li>
+						<li class="con"></li>
+					</a>
+				</ul>
+				<ul class="list">
+					<a href="">
+						<li class="pic"><img src="images/q_32.jpg" alt=""></li>
+						<li class="wd">游戏中心</li>
+						<li class="con"></li>
+					</a>
+				</ul>
+				<ul class="list">
+					<a href="">
+						<li class="pic"><img src="images/q_33.jpg" alt=""></li>
+						<li class="wd">滴滴出行</li>
+						<li class="con"></li>
+					</a>
+				</ul>
+				<ul class="list">
+					<a href="">
+						<li class="pic"><img src="images/q_34.jpg" alt=""></li>
+						<li class="wd">校园工作</li>
+						<li class="con"></li>
+					</a>
+				</ul>
+				<ul class="list">
+					<a href="">
+						<li class="pic"><img src="images/q_39.jpg" alt=""></li>
+						<li class="wd">共享单车</li>
+						<li class="con">-限时推广-</li>
+					</a>
+				</ul>
+				<ul class="list">
+					<a href="">
+						<li class="pic"><img src="images/q_40.jpg" alt=""></li>
+						<li class="wd">更多</li>
+						<li class="con"></li>
+					</a>
+				</ul>
+		</div>
+		<div id="list1">
+			<div class="center">
+				<ul class="title">
+					<li class="pic fl"> <img src="images/w_01.jpg" alt=""></li>
+					<li class="designation fl">
+						<p class="monicker">95公益周</p>
+						<p></p>
+					</li>
+					<li class="join fr"> <input type="button"  id="join" value="..."  class="write"></li>
+				</ul>
+				<ul class="con">
+					<span class="oneRow">明星公益林</span><br>
+					和明星一起来种树
+				</ul>
+				<ul class="look">立即查看</ul>
+			</div>
+		</div>
+		<div id="list2">
+			<div class="center">
+				<ul class="title">
+					<li class="pic fl"> <img src="" alt=""></li>
+					<li class="designation fl">
+						<p class="monicker">95公益周</p>
+						<p></p>
+					</li>
+					<li class="join fr" id="msg"> <input type="button"  id="join" value="..."></li>
+
+				</ul>
+				<ul class="con">
+					<span class="oneRow">明星公益林</span><br>
+					和明星一起来种树
+				</ul>
+			</div>
+			<div id="seeMore">查看更多</div>
+		</div>
+		<script>
+			var join=document.getElementById('join');
+			var body=document.getElementById('body');
+			var msg=document.getElementById('msg');
+			join.onmouseover=function(){
+				body.style.opacity="0.5";
+				msg 
+			}
+			join.onmouseout=function(){
+				body.style.opacity="1";
+			}
+		</script>
+	</article>
+	<footer>
+		<div><a href="index.html">
+			<ul id="zhi" class="pic"><img src="images/b_06.jpg"></ul>
+			<ul class="blue">首页</ul></a>
+		</div>
+		<div><a href="praise.html">
+			<ul id="publicPraise" class="pic"><img src="images/publicPraise.gif"></ul>
+			<ul>口碑</ul></a>
+		</div>
+		<div><a href="friends.html">
+			<ul id="firend" class="pic"><img src="images/b_04.jpg"></ul>
+			<ul>朋友</ul></a>
+		</div>
+		<div><a href="me.html">
+			<ul id="myMoney" class="pic"><img src="images/myMoney.gif"></ul>
+			<ul>我的</ul></a>
+		</div>
+	</footer>
+</section>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* section begin */
+.center{width: 90%;margin:0 auto;}
+.write{color:#fff;}
+/* header begin */
+#body{background:#EDEDED;position:relative;z-index: 2;}
+#section{position:relative;z-index: 1;}
+section header{padding-top:10px;height:40px;}
+section header .center .search{width:65%;margin-left:3%;}
+section header #search{border-radius:6px;height:30px;border:none;background:#1673B8;color:#9DC8E1;font-family:"楷体";width:100%;text-align:left;padding-left:2em;}
+section header #more{padding-left:2.5%;padding-top:5px;}
+section header #friendList{padding-right:2.5%;padding-left:2.5%;padding-top:5px;}
+section header img{height:15px;}
+/* header end */
+
+/* article begin */
+section article #feature{height:100px;background:#1983D1;}
+section article #feature a{color:#fff;}
+section article #feature ul{width: 25%;float:left;text-align:center;padding-top:20px;font-size:1.2em;}
+section article #feature img{height:40px;}
+section article #myList{height:200px;background:#fff;}
+section article #myList img{height:30px;}
+section article #myList .list{padding-top:10px;width: 25%;float:left;text-align:center;}
+section article #myList .list:hover{background:#eee;}
+section article #myList .list .pic{height:33px;}
+section article #myList .list .wd{font-size:1.1em;height:1.1em;line-height:1.1em;}
+section article #myList .list .con{color:#56AEE5;font-size:0.8em;line-height:0.8em;height:0.8em;}
+section article #list1{color:#fff;padding-top:10px;height:110px;background:#0EB9A6;width: 100%;margin-top:10px;}
+section article #list1 .center .title{height:20px;}
+section article #list1 .center .title img{height: 15px;}
+section article #list1 .center .title .monicker{color:#AAE6E2;}
+section article #list1 .center .pic{height:20px;width: 20px;}
+section article #list1 .center .con{margin-top:10px;margin-left:20px;}
+section article #list1 .center .con .oneRow{font-size:1.5em;}
+section article #list1 .center .look{margin-left:20px;border:1px solid #fff;width:25%;text-align:center;margin-top:5px;height:22px;border-radius:11px;}
+section article #msg{position:relative;}
+section article #join{border:none;background:rgba(0,0,0,0);width: 30px;height:20px;font-size:1.3em;font-weight:600;letter-spacing:0.1em;}
+section article #list2{color:#000;padding-top:10px;height:100%;background:#fff;width: 100%;margin-top:10px;}
+section article #list2 .center .title{height:20px;}
+section article #list2 .center .title .monicker{color:#AAE6E2;}
+section article #list2 .center .pic{height:20px;width: 20px;}
+section article #list2 .center .con{margin-top:10px;margin-left:20px;}
+section article #list2 .center .con .oneRow{font-size:1.5em;}
+section article #list2 .center .look{margin-left:20px;border:1px solid #fff;width:25%;text-align:center;margin-top:5px;height:22px;border-radius:11px;}
+section article #seeMore{text-align:center;height:20px;background:#ddd;margin-top:10px;}
+section article #seeMore:hover{background:#aaa;}
+/* article end */
+
+/* footer begin */
+
+/* footer end */
+
+/* section end */

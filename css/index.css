@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+html{background:#EDEDED;}
+.center{width: 95%;margin:0 auto;}
+/* section begin */
+section{font-family:"楷体";}
+/*header begin*/
+section header div{height:35px;float:right;font-size:1.1em;color:#fff;padding-top:15px;}
+section header div.firend{float:left;padding-left:5%;}
+section header #more{padding-right:5%;padding-left:2.5%;}
+section header #friendList{padding-right:2.5%;padding-left:2.5%;}
+section header #search{padding-right:2.5%;padding-left:2.5%;}
+section header img{height:15px;}
+/*header end*/
+
+/* article begin */
+section article #firend{height:40px;padding-top:10px;background:#fff;margin-bottom:1px;}
+section article #firend .center{position:relative;}
+section article #firend .center .firHead{height:30px;float:left;}
+section article #firend .center .firHead img{height:30px;}
+section article #firend .center .firCon{letter-spacing:0.1em;float:left;margin-left:5%;}
+section article #firend .center .firCon .firName{font-size:1.2em;color:#000;font-weight:600;height:15px;}
+section article #firend .center .firCon{}
+section article #firend .center .time{position:absolute;top:0;right:0;}
+/* article end */
+
+/* footer begin */
+
+/* footer end */
+
+/* section end */

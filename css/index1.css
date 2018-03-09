@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.center{width: 90%;margin:0 auto;}
+.center1{width:95%;}
+.green{color:#58B097;}
+
+
+body{background:#E8EEEE;}
+/* header begin */
+section header div{height:35px;float:right;font-size:1.1em;color:#fff;padding-top:15px;}
+section header div.firend{float:left;padding-left:5%;}
+section header .set{float:right;padding-right:5%;}
+section header #set{border:none;background:#1983D1;color:#fff;}
+/* header end */
+
+/* article begin */
+article{background:#E8EEEE;}
+article #me{height:78px;padding-top:2px;background:#1983D1;width: 100%;color:#fff;}
+article #me .center ul.head-portrait{height:60px;border:2px solid #5FA7E1;border-radius:15%;}
+article #me .center ul.head-portrait img{height:60px;border-radius:15%;}
+article #me .center ul.petName{margin-left:5%;padding-top:15px;}
+article #me .center ul.petName .zxy{font-size:1.3em;font-weight:600;}
+article #me .center ul.petName .phone{font-size:0.7em;letter-spacing:0.1em;}
+article #me .center ul.gt{font-size:2em;font-weight:800;padding-top:20px;}
+
+article #content img{height:25px;}
+article #content .theAntMember{background:#fff;height:30px;padding-top:10px;border-top:1px solid #DAE7EE;border-bottom:1px solid #DAE7EE;}
+article #content .theAntMember:hover{background:#ccc;}
+article #content .merchant{color:#000;font-size:1.2em;font-weight:600;line-height:25px;margin-left:4%;}
+article #content .merCon{margin-right:3%;}
+article #content .center ul.gt{font-size:2em;font-weight:800;padding-top:0px;color:#CBCBCB;}
+
+article #content .five{height:204px;background:#fff;margin-top:20px;}
+article #content .five .bell{height:30px;padding-top:10px;border-bottom:1px solid #DAE7EE;}
+article #content .five .bell:hover{background:#ccc;}
+/* article end */
+
+/* footer begin */
+
+/* footer end */
